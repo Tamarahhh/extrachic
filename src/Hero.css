@@ -1,0 +1,82 @@
+.Hero {
+  background-image: url(images/hero-image.png);
+  background-size: cover;
+  height: 800px;
+  padding: 40px 50px;
+}
+
+.Header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+ul li {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  display: flex;
+  list-style: none;
+}
+
+ul li:hover {
+  text-decoration: underline;
+  color: #ff99e2;
+}
+
+.Header .logo {
+  font-family: "Quintessential", serif;
+  font-size: 60px;
+  color: #ff99e2;
+}
+
+.logo span {
+  color: #ffffff;
+}
+
+.Hero .content {
+  padding-top: 200px;
+}
+
+.Hero h1 {
+  font-family: "Quintessential", serif;
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.Hero p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.Hero .btn {
+  padding: 15px 35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+  background: #fceff8b9;
+  opacity: 0.8;
+  border: 1px solid #343333;
+  transition: 0.3s ease-in-out;
+}
+
+.Hero .btn:hover {
+  color: #ffffff;
+  background: #ff99e2;
+}
