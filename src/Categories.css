@@ -1,0 +1,36 @@
+.Categories {
+  background: #241304;
+  height: 800px;
+  padding: 80px 30px;
+}
+
+.Categories h2 {
+  font-family: "Quintessential", serif;
+  font-size: 55px;
+  font-weight: 500;
+  color: #ff99e2;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.Categories img {
+  padding-top: 100px;
+  height: 340px;
+  width: 300px;
+}
+
+.Categories p {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+.Categories a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.Categories a:hover {
+  text-decoration: underline;
+  color: #ff99e2;
+}
