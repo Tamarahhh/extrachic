@@ -17,12 +17,18 @@
   padding-top: 100px;
   height: 340px;
   width: 300px;
+  transition: transform 0.3s;
+}
+
+.Categories img:hover {
+  transform: scale(1.2);
 }
 
 .Categories p {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   padding-top: 50px;
+  text-align: center;
 }
 
 .Categories a {

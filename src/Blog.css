@@ -1,0 +1,56 @@
+.Blog {
+  background: #fceff8;
+  height: 1000px;
+  padding: 60px 50px;
+}
+
+.Blog h2 {
+  font-family: "Quintessential", serif;
+  font-size: 55px;
+  font-weight: 500;
+  color: #ff99e2;
+  padding-bottom: 10px;
+}
+
+.Blog img {
+  padding-top: 80px;
+  transition: transform 0.3s;
+}
+
+.Blog img:hover {
+  transform: scale(1.2);
+}
+
+h3,
+p,
+h4 {
+  text-align: left;
+}
+
+.Blog h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.Blog p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.Blog a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.Blog .content {
+  position: relative;
+  left: 30px;
+  padding-top: 40px;
+}
+
+.Blog a:hover {
+  color: #ff99e2;
+}
