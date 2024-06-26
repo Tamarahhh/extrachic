@@ -1,0 +1,51 @@
+.FAQ {
+  background: #241304;
+  height: 600px;
+  padding: 40px 180px;
+  text-align: center;
+}
+
+.FAQ h2 {
+  font-family: "Quintessential", serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #ff99e2;
+  padding-bottom: 30px;
+}
+.FAQ h3 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  border: #241304;
+}
+
+.FAQ h3:hover {
+  background: #ffffff;
+  border: #241304;
+  color: #000;
+}
+
+.FAQ .accordion-button {
+  background: #241304;
+  color: #ffffff;
+  border: none;
+  border-color: #241304;
+  outline: none;
+}
+
+.FAQ .accordion-button:hover {
+  background: #ffffff;
+  border: #241304;
+  color: #000;
+  outline: none;
+}
+
+.FAQ .accordion-item {
+  border: none;
+}
+
+.FAQ .accordion-item:hover {
+  background: #ffffff;
+  border: #241304;
+  color: #000;
+}

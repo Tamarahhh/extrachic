@@ -1,9 +1,11 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Hero from "./Hero";
 import About from "./About";
 import Categories from "./Categories";
 import Blog from "./Blog";
+import FAQ from "./FAQ";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <About />
       <Categories />
       <Blog />
+      <FAQ />
     </div>
   );
 }
