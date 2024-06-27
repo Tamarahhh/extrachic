@@ -1,7 +1,7 @@
 .FAQ {
   background: #241304;
   height: 600px;
-  padding: 40px 180px;
+  padding: 30px 50px;
   text-align: center;
 }
 
@@ -12,6 +12,13 @@
   color: #ff99e2;
   padding-bottom: 30px;
 }
+
+.FAQ .accordion {
+  width: 700px;
+  position: relative;
+  right: -350px;
+}
+
 .FAQ h3 {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -34,10 +41,11 @@
 }
 
 .FAQ .accordion-button:hover {
-  background: #ffffff;
-  border: #241304;
-  color: #000;
-  outline: none;
+  text-decoration: underline;
+}
+
+.accordion-button:not(.collapsed)::after {
+  color: #ffffff;
 }
 
 .FAQ .accordion-item {

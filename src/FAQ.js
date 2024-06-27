@@ -42,7 +42,7 @@ export default function FAQ() {
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo"
               >
-                What is your return policy?{" "}
+                What is your return policy?
               </button>
             </h3>
             <div
@@ -68,7 +68,7 @@ export default function FAQ() {
                 aria-expanded="false"
                 aria-controls="flush-collapseThree"
               >
-                How do I care for my jewelry?{" "}
+                How do I care for my jewelry?
               </button>
             </h3>
             <div
@@ -93,7 +93,7 @@ export default function FAQ() {
                 aria-expanded="false"
                 aria-controls="flush-collapseFour"
               >
-                Do you ship worldwide?{" "}
+                Do you ship worldwide?
               </button>
             </h3>
             <div

@@ -1,0 +1,39 @@
+.newsletter-signup {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.newsletter-signup h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.newsletter-signup p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.email-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-signup input {
+  background: #ffffff;
+  padding: 10px 50px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.email-signup button {
+  background: #241304;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}

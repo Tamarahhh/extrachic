@@ -6,6 +6,7 @@ import Blog from "./Blog";
 import FAQ from "./FAQ";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Categories />
       <Blog />
       <FAQ />
+      <Footer />
     </div>
   );
 }
