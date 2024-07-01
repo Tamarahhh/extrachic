@@ -6,13 +6,13 @@ export default function Header() {
     <div className="Header">
       <div className="container">
         <div className="row">
-          <div className="col-4 menu-left">
+          <div className="col-md-4 menu-left">
             <ul>
               <a href="./">
                 <li>Home</li>
               </a>
               <a href="./">
-                <li>About us</li>
+                <li>About</li>
               </a>
               <a href="./">
                 <li>Categories</li>
@@ -24,7 +24,7 @@ export default function Header() {
               EXTRACHIC<span>NG</span>
             </h2>
           </div>
-          <div className="col-4 menu-right">
+          <div className="col-md-4 menu-right">
             <ul>
               <a href="./">
                 <li>Blogs</li>

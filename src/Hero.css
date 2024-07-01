@@ -81,3 +81,35 @@ ul li:hover {
   color: #ffffff;
   background: #ff99e2;
 }
+
+@media (max-width: 900px) {
+  .Header {
+    width: 100%;
+  }
+
+  .Header .logo {
+    display: none;
+  }
+
+  .Header ul {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .Hero {
+    padding: 40px 20px;
+    height: 100%;
+  }
+
+  .Hero h1 {
+    font-size: 40px;
+  }
+
+  .Hero p {
+    font-size: 20px;
+  }
+
+  .Hero .btn {
+    font-size: 20px;
+  }
+}
